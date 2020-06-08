@@ -1,0 +1,132 @@
+body {
+        background-color: #f2f2f0;
+        margin: 0;
+        padding: 0;
+        text-align:center;
+    }
+
+div {
+        font: verdana 12px #000;
+        position:relative;
+    }
+	
+
+git {
+		color:green;
+	}
+	
+zle {
+		color:red;
+	}
+
+#container {
+	margin-left: 12.5%;
+    width:75%;
+	height:100%;
+    text-align:center;
+    clear: both;
+	background-color:#FFFFFF;
+    }
+
+
+#menu {
+    background-image: url(images/pasek.jpg);
+	background-size: cover;
+    height:33px;
+	margin-top: 10px;
+	}
+#menu ul {
+	list-style: none;
+	}
+#menu li {
+		float: left;
+		padding-left:20px;
+		padding-top:5px;
+  		font-weight: bold;
+  		font-size: 14px;
+	}
+x{
+	float: right;
+	padding-right:40px;
+	}
+	
+
+#menu a{
+		display: block;
+		line-height: 20px;
+		padding: 0 8px;
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+#menu a:hover {
+		background: #fff;
+		color: #294b9d;
+	
+	}
+
+#inside a{
+	color: black;
+	}
+
+#stopka {
+		margin-top: 20px;
+        background: url(images/stopka.jpg);
+		background-size: cover;
+        clear:both;
+		font-size:auto;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		height:33px;
+		color:#FFFFFF;
+		padding-top: 10px;
+	}
+#stopka a {
+		color: #FFFFFF;	
+	}
+
+table{
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+th, td {
+	border: 1px solid black;
+}
+
+#id_raportu{
+	width: 176px;
+}
+
+p.success {
+    background: #CF9;
+    border: 1px solid #060;
+    width: 50%;
+    margin: 5px;
+	margin-left: 25%;
+    color: black;
+    font-weight: bold;
+    padding: 2px;
+	text-indent: 0px;
+	padding-top: 2px;
+}
+
+p.error {
+    background: #f88;
+	border: 1px solid #c00;
+    width: 50%;
+    margin: 5px;
+	margin-left: 25%;
+    color: black;
+    font-weight: bold;
+    padding: 2px;
+	text-indent: 0px;
+	padding-top: 2px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+}
